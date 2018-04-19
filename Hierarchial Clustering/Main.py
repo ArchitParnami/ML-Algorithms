@@ -36,7 +36,7 @@ X, Y = read_data(filename)
 
 #My implementation for Hierarchial Clustering
 H = HierarchialClustering()
-Z = H.fit(X, Y)
+H.fit(X, Y)
 out = H.output();
 print("Output Format: (cluster_number, cluster-A, cluster-B)\n")
 print(out)
